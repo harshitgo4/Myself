@@ -48,7 +48,7 @@ const Navbar = () => {
           <NavLink to="/work" className="btn block mt-2"onClick={toggleMenu} activeClassName="active-link">Work</NavLink>
           <NavLink to="/projects" className="btn block mt-2 " onClick={toggleMenu} activeClassName="active-link">Projects</NavLink>
           <div className='w-full'>
-          <a href='https://drive.google.com/file/d/1YN2LXILAqt2cjM4GJqlBbYjtcwt9oD6g/view?usp=sharing' target='_' className="btn mb-2 w-full block" onClick={toggleMenu} >Resume</a>
+          <a href='https://drive.google.com/file/d/1YN2LXILAqt2cjM4GJqlBbYjtcwt9oD6g/view' target='_' className="btn mb-2 w-full block" onClick={toggleMenu} >Resume</a>
           </div>
         </div>
       )}
