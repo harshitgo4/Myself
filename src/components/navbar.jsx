@@ -24,7 +24,7 @@ const Navbar = () => {
           <NavLink to="/education" className="btn" activeClassName="active-link">Education</NavLink>
           <NavLink to="/work" className="btn" activeClassName="active-link">Work</NavLink>
           <NavLink to="/projects" className="btn" activeClassName="active-link">Projects</NavLink>
-          <a href='https://drive.google.com/file/d/1IjT0hEtv5Ed7zaePxaP0hN1iz_GYsXbk/view?usp=drive_link' target='_' className="btn" >Resume</a>
+          <a href='https://drive.google.com/file/d/1YN2LXILAqt2cjM4GJqlBbYjtcwt9oD6g/view' target='_' className="btn" >Resume</a>
         </div>
         <div className="block lg:hidden">
           <button onClick={toggleMenu} className="text-gray-800 focus:outline-none">
